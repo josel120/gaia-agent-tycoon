@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent Tycoon — Build your AI company | Gaia Nexus Games</title>
+<meta name="description" content="Agent Tycoon: click, hire AI agents, automate and grow your AI company. Free idle game in your browser, progress saves automatically.">
+<link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<header><a class="back" href="https://josel120.github.io/gaia-nexus-games/">← All Gaia Nexus games</a><span class="badge">Game 1 · Idle</span></header>
+<main>
+<h1>🤖 Agent Tycoon</h1>
+<p class="lede">Build Gaia Nexus from one laptop into an AI empire. Tap the Core to earn Data, hire agents who earn while you watch — and while you're away.</p>
+<section class="panel core-panel">
+  <div class="stat"><span>Data</span><strong id="data">0</strong></div>
+  <div class="stat"><span>Per tap</span><strong id="perTap">1</strong></div>
+  <div class="stat"><span>Per second</span><strong id="perSec">0</strong></div>
+  <div class="stat"><span>Company value</span><strong id="value">$0</strong></div>
+  <button id="core" class="core" aria-label="Tap the core to earn Data">◈<span>Tap the Core</span></button>
+  <p class="hint" id="goal">Goal: hire your first Scout (15 Data)</p>
+  <div class="bar"><div id="barFill"></div></div>
+</section>
+<section class="panel"><h2>Hire agents</h2><div id="shop" class="shop"></div></section>
+<section class="panel"><h2>Upgrades</h2><div id="upgrades" class="shop"></div>
+<div class="row"><button id="prestige" class="secondary">Nexus Reset (prestige)</button><button id="wipe" class="danger">Erase save</button></div>
+<p class="hint">Progress saves on this device automatically. Closing the tab still earns (up to 8 hours).</p></section>
+<p class="status" id="status" role="status"></p>
+</main>
+<footer><span>Gaia Nexus Games · Game 1 of 10</span><a href="https://www.gaia-nexus.com/">gaia-nexus.com</a></footer>
+</div><script src="game.js"></script></body></html>
